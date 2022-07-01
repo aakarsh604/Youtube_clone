@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link rel="stylesheet" href="video.css">
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="nav">
+        <div>
+          <i class="fa-solid fa-bars"></i>
+          <img src="https://www.gstatic.com/youtube/img/promos/growth/c7665f210255cb74057aa34fef33d245822184826e84d8863e3a6faea12ef36c_244x112.webp" alt="">
+        </div>
+        <div>
+          <input type="text" id="query" placeholder="Search">
+          <button onclick="searchVideos()" id="searchbtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+          <div id="mic"><i class="fa-solid fa-microphone"></i></div>
+        </div>
+        <div> 
+          <i class="fa-solid fa-video"></i>
+          <i class="fa-brands fa-buromobelexperte"></i>
+          <i class="fa-regular fa-bell"></i>
+          <i class="fa-regular fa-circle-user"></i>
+        </div>
+      </div>
+
+      <!-- The body starts from here -->
+      <div id="main-container">
+          <div id="left-sec">
+
+          </div>
+
+          <div id="right-sec"></div>
+      </div>
+</body>
+</html>
+
+<script src="video.js"></script>
